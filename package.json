@@ -1,0 +1,51 @@
+{
+  "name": "location-locker",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "cra-template": "1.0.3",
+    "express": "^4.17.1",
+    "google-maps-react": "^2.0.6",
+    "mongoose": "^5.10.0",
+    "nodemon": "^2.0.4",
+    "react": "^16.13.1",
+    "react-async-script-loader": "^0.3.0",
+    "react-dom": "^16.13.1",
+    "react-google-login": "^5.1.21",
+    "react-scripts": "3.4.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "nodemonConfig": {
+    "restartable": "rs",
+    "ignore": [
+      "node_modules/**/node_modules"
+    ],
+    "delay": "2500",
+    "env": {
+      "NODE_ENV": "development",
+      "PORT": 4000
+    }
+  }
+}
