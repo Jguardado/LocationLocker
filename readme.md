@@ -1,4 +1,4 @@
-# A backend and a frontend for managing favorite locations.
+# A backend and frontend for managing favorite locations.
 
 ## Backend
 
